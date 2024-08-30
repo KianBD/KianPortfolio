@@ -1,0 +1,274 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    user-select: none;
+    cursor: url(../images/cursor.png),auto;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Integral';
+    src: url('../fonts/Fontspring-DEMO-integralcf-regular.otf');
+}
+
+@font-face {
+    font-family: 'Druk';
+    src: url('../fonts/DrukWide-Medium-Trial.otf');
+}
+
+@font-face {
+    font-family: 'DrukTall';
+    src: url('../fonts/Druk-Medium-Trial.otf');
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url('../fonts/Klarheit\ Grotesk\ Regular.otf');
+}
+
+html, body { 
+    min-height: 100vh;
+    font-family: 'Druk', sans-serif;
+    background-color: #ded7bf;
+    background-image: url(../images/KIAN.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+    background-size: 85%;
+    cursor: url(../images/cursor.png),auto;
+    user-select: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+}
+
+.nav_links li a {
+    cursor: url(../images/cursor.png),auto;
+    font-size: 19px;
+    color: rgb(36, 36, 36);
+    letter-spacing: 0.290133px;
+    text-decoration-line: none;
+    display: flex;
+    height: 100%;
+    padding: 0 102px;
+    align-items: center;
+}
+
+.nav_links ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_links li {
+    display: inline-block;
+    height: 8vh;
+}
+
+.nav_links {
+    position: fixed;
+    top: 0;
+    list-style: none;
+    background-color: #ded7bf;
+    z-index: 100;
+}
+
+
+
+img {
+    border-radius: 15%;
+    margin-left: 25%;
+    margin-top: -43%;
+    transition: transform 330ms ease-in-out;
+
+}
+
+img:hover {
+    transform: scale(1.01); 
+
+}
+
+.tab1 {
+    background-color: #ded7bf;
+    height: 520vh;
+    z-index: 2;
+    margin-top: 110vh;
+    font-family: 'DrukTall', sans-serif;
+}
+
+.tab1 h1 {
+    color: rgb(36, 36, 36);
+    font-size: 200px;
+    margin-top: 10vh; 
+    margin-left: 2vw; 
+    letter-spacing: 5px; 
+}
+
+.miniphotos {
+    width: 300px;
+    display: inline-block;
+    border-radius: 5%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-top: 1%;
+    margin-right: 2vw;
+}
+
+
+.row {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-right: 10vw;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2vw; 
+    margin-bottom: -0.25vh;
+}
+
+.seenIn {
+    margin-left: 1vw;
+    font-size: 41px;
+    font-weight: 400;
+    font-family: 'Druk', sans-serif;
+    color: rgb(36, 36, 36);
+    display: inline-block;
+    margin-top: -12px;
+    vertical-align: middle;
+    background: none;
+    border: none;
+    cursor: url(../images/cursor.png),auto;
+    padding: .5vh;
+    transition: all 500ms;
+    margin-top: -6vh;
+    margin-bottom: -4vh;
+    z-index: 99;
+}
+
+.seenIn:hover {
+    color:#d672e8;
+}
+
+.seenImg {
+    z-index: 98;
+    position: absolute;
+    width: 175px;
+}
+
+#img1 {
+    left: 500px;
+    margin-top: -5vh;
+}
+#img2 {
+    left: 700px;
+    margin-top: -0vh;
+}
+#img3 {
+    left: 650px;
+    margin-top: -15vh;
+}
+#img4 {
+    left: 600px;
+    margin-top: -25vh;
+}
+#img5 {
+    left: 525px;
+    margin-top: -20vh;
+}
+
+hr {
+    width: 96%;
+    height: 1.5px;
+    background-color: rgb(36,36,36);
+    border: none;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.roles {
+    margin-top: 5vh;
+}
+
+.container {
+    img {
+        opacity: 0;
+        transition: opacity .5s;
+    }
+
+    a:hover ~ img {
+        opacity: 1;
+    }
+}
+
+.seenIn:hover .hospital {
+    opacity: 1;
+}
+
+.Horizontal {
+    margin-top: -3vh;
+    width: 1230px;
+    border-radius: 5%;
+    margin-left: 2vw;
+}
+
+.aboutL {
+    font-size: 18px;
+    font-family: 'Grotesk',sans-serif;
+    margin-left: 2vw;
+}
+
+.aboutR {
+    font-size: 18px;
+    font-family: 'Grotesk',sans-serif;
+    margin-right: 2vw;
+    margin-top: -25vh;
+}
+
+.contact {
+    font-size: 18px;
+    font-family: 'Grotesk',sans-serif;
+    margin-left: 2vw;
+}
+
+.iconsL {
+    width: 45px;
+    position: absolute;
+}
+
+#icon1 {
+    margin-top: 1.5vh;
+    margin-left: -0vw;
+}
+#icon2 {
+
+}
+
+.footer {
+    font-family: 'Grotesk',sans-serif;
+    margin-left: 2vw;
+    margin-top: 42vh;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (max-width: 1920px) {}
