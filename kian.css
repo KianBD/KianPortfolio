@@ -120,6 +120,48 @@ img:hover {
     border-radius: 5%;
 }
 
+.arrowL {
+    width: 27.5px;
+    margin-top: -0.28vh;
+    margin-left: -.3vw;
+}
+
+
+.arrowR {
+    width: 27.5px;
+    margin-top: -0.28vh;
+    margin-left: 0vw;
+}
+
+.buttonL {
+    width: 27.5px;
+    height: 27.5px;
+    margin-left: 2vw; 
+    margin-top: 2vh;
+    background: none;
+    border: none;
+}
+
+.buttonR {
+    width: 27.5px;
+    height: 27.5px;
+    margin-left: 2vw; 
+    margin-top: 2vh;
+    background: none;
+    border: none;
+}
+
+.carousel {
+    img {
+        margin-right: 10vw;
+        transition: margin-right .5s;
+    }
+
+    .buttonR:active ~ img {
+        margin-right: 15vw;
+    }
+}
+
 .column {
     float: left;
     width: 25%;
