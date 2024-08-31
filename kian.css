@@ -257,7 +257,11 @@ hr {
 
 #icon1 {
     margin-top: 1.5vh;
-    margin-left: -0vw;
+    margin-left: 2vw;
+}
+#icon2 {
+    margin-top: 14.5vh;
+    margin-left: 2vw;
 }
 
 .footer {
@@ -266,6 +270,14 @@ hr {
     margin-top: 42vh;
     text-align: center;
     font-size: 13px;
+}
+
+.socials {
+    position: absolute;
+    margin-left: 7vw;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: 'Grotesk', sans-serif;
 }
 
 @media (max-width: 1920px) {}
